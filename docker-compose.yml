@@ -1,0 +1,8 @@
+version: '3'
+services:
+  todo:
+    build: . 
+    container_name: 'composetodo'
+    ports:
+     - '8000:8000'
+      
